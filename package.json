@@ -1,0 +1,32 @@
+{
+  "name": "card-games",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node make serve",
+    "eslint": "node make eslint",
+    "lint": "npm run eslint",
+    "build": "node make build",
+    "watch": "node make watch",
+    "minify": "node make minify",
+    "min": "npm run minify",
+    "default": "node make",
+    "prepare": "node make",
+    "clean": "rm -r dist && mkdir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EFXUI/cardGames.git"
+  },
+  "author": "Eric Fournier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EFXUI/cardGames/issues"
+  },
+  "homepage": "https://github.com/EFXUI/cardGames#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1"
+  }
+}
